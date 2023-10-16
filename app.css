@@ -1,0 +1,94 @@
+/* app.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.menu-item-name {
+  font-weight: bold;
+}
+
+.menu-item-price {
+  color: #888;
+}
+
+.couch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.couch-name {
+  font-weight: bold;
+}
+
+.couch-capacity {
+  color: #888;
+}
+
+.avatar-selection {
+  margin-bottom: 20px;
+}
+
+.avatar-option {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-label {
+  margin-left: 10px;
+}
+
+.vip-status {
+  margin-bottom: 10px;
+}
+
+.vip-status-label {
+  margin-right: 10px;
+}
+
+.become-vip {
+  margin-top: 20px;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
